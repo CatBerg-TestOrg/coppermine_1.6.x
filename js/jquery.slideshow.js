@@ -60,7 +60,7 @@ $(document).ready(function(){
         function showNextSlide(){
             
              /** clear time out */
-            /**clearTimeout(timer);
+            clearTimeout(timer);
             
             /** now load a image */         
             pos = parseInt(pos) + 1;
